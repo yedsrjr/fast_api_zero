@@ -1,4 +1,4 @@
-""${message}
+"""${message}
 
 Revision ID: ${up_revision}
 Revises: ${down_revision | comma,n}
@@ -23,4 +23,4 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    ${downgrades if downgrades else "pass"
+    ${downgrades if downgrades else "pass"}
